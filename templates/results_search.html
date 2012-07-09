@@ -1,0 +1,68 @@
+{% extends "layout.html" %}
+	{% block content %} 
+		<div class="content-col">
+			<h1>Seaching &mdash; {{ page.query.formatted }}</h1>
+			
+			<div id="gmap"></div>
+			
+			{% if page.query.npa|length == 3 %}
+			<p><a href="{{ page.base }}{{ options.url_slug_area }}/{{ page.query.npa }}">View area code information for {{ page.query.npa }}</a></p>
+			{% endif %}
+			{% if page.query.nxx|length == 3 %}
+			<p><a href="{{ page.base }}{{ options.url_slug_prefix }}/{{ page.query.npa }}-{{ page.query.nxx }}">View prefix information for {{ page.query.npa }}-{{ page.query.nxx }}</a></p>
+			{% endif %}
+			{% if page.query.last4|length == 4 %}
+			<p><a href="{{ page.base }}{{ options.url_slug_phone }}/{{ page.query.npa }}-{{ page.query.nxx }}-{{ page.query.last4 }}">View number information for {{ page.query.npa }}-{{ page.query.nxx }}-{{ page.query.last4 }}</a></p>
+			{% endif %}
+			
+			<p><strong>State:</strong> {{ page.results.location.state.1 }}</p> 
+			
+			{% if page.results.location.city_text |length > 0 %}
+			<p><strong>Cities:</strong> {{ page.results.location.city_text }}</p>
+			{% elseif page.results.location.city.0 |length > 0 %}
+			<p><strong>City:</strong> {{ page.results.location.city.0 }}</p>
+			{% endif %}
+			
+			{% if page.results.location.zip_text |length > 0 %}
+			<p><strong>Zip codes:</strong> {{ page.results.location.zip_text }}</p>
+			{% elseif page.results.location.zip.0 |length > 0 %}
+			<p><strong>Zip code:</strong> {{ page.results.location.zip.0 }}</p>
+			{% endif %}
+			
+			
+			{% if page.query.length in range(1,2) %}
+			<h3 class="clearfix">Matching Area Codes</h3>
+			<ul class="biglist" id="prefix-results">
+				{% for item in page.results.npa %}
+					<li><a href="{{ page.base }}{{ options.url_slug_area }}/{{ item }}">{{ item }}</a></li>
+				{% endfor %}
+			</ul>
+			{% endif %}
+			
+			{% if page.query.length in range(4,5) %}
+			<h3 class="clearfix">Matching Prefixes</h3>
+			<ul class="biglist" id="prefix-results">
+				{% for item in page.results.nxx %}
+					<li><a href="{{ page.base }}{{ options.url_slug_prefix }}/{{ page.query.npa }}-{{ item }}">{{ page.query.npa }}-{{ item }}</a></li>
+				{% endfor %}
+			</ul>
+			{% endif %}
+			
+			{% if page.query.length in range(7,9) %}
+			<h3 class="clearfix">Matching Numbers</h3>
+			<ul class="biglist" id="prefix-results">
+				{% for item in page.results.numbers %}
+					<li><a href="{{ page.base }}{{ options.url_slug_phone }}/{{ item }}">{{ item }}</a></li>
+				{% endfor %}
+			</ul>
+			{% endif %}
+		</div>
+		
+		<div class="content-sidebar">
+			
+			<div class="start-box">Get started<br>right now</div>
+			
+		</div>
+		
+		
+	{% endblock %}

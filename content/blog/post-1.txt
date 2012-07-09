@@ -1,0 +1,7 @@
+title: blog post 1
+description: this is blog post 1
+this: is the worst
+
+%%% CONTENT %%%
+
+# Blog post 1

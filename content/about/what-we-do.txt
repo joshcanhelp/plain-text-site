@@ -1,0 +1,59 @@
+# What is it that we do
+
+All businesses should define what they do clearly and stick to it. Expansion into new services and products should be a conscious, deliberate move towards a goal. Web design and development companies are the worst at this. 
+
+The problem comes from two things: what we do is largely incomprehensible to our clients and what's involved with a strong, healthy web presence is near-endless. Put these two together and you have a recipe for a jack-of-all-web-trades company that can't keep up. 
+
+Our desire is not to be a one-stop shop, it's to do what we do really well for clients that appreciate the focus and quality. As such, we work with a limited set of tools, itemized below.
+
+## Who we work with
+
+We're not a "one-size-fits-all" shop and we created our work flow and processes to provide specific development work (next section) to specific people. 
+
+Structurally, you're likely a:
+
+* Design company of 1 or more people
+* Technology company without experience in the specific fields below
+* Tech-savvy small business who is already online but has some big ideas
+
+Philosophically, you likely:
+
+* Were nodding your head when you read our Mission and Motivation
+* Feel pretty cool telling people what your company does
+* Enjoy what you do and take pride in what you create
+
+
+## What we do
+
+Some of the below is open to interpretation. We're welcome to field any questions you have about what we create; we'll always be honest about where our strengths lie. 
+
+* Ground-up PHP and MySQL development (applications, custom classes, etc)
+* Existing PHP or Javascript application modification
+* Custom WordPress or Drupal site builds, configurations and modifications
+* WordPress plugins and custom themes
+* Drupal modules and custom themes
+* Front-end engineering projects, including UI/UX layout and design
+
+## What we use
+
+We work with open source technology as much as possible. If it's not on the list, we probably don't do it.
+
+* HTML5, XHTML
+* CSS (2, 3)
+* Javascript
+* PHP
+* MySQL
+* Git
+* WordPress
+* Drupal/Pressflow
+* jQuery
+* LAMP servers (not provisioning or management)
+* Google Analytics
+
+We're actively exploring the tools below. If you're OK with a little experimentation and a longer implementation (combined with a lower project cost), let's give it a try. 
+
+* Yii
+* Concrete5
+* MongoDB
+* Node.js
+* bbPress

@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+	{% block content %} 
+		<div class="content-col">
+		{% autoescape false %}{{ page.content.html }}{% endautoescape %}
+		</div>
+		<div class="sidebar">
+			{% include "partials/sidebar-blog.html" %}
+		</div>
+	{% endblock %}

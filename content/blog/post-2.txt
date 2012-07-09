@@ -1,0 +1,6 @@
+title: blog post 2
+description: this is blog post 2
+
+%%% CONTENT %%%
+
+# Blog post 2

@@ -1,0 +1,6 @@
+{% extends "head-body.html" %}
+	{% block layout %} 
+	<div class="content-col">
+		{% autoescape false %}{{ page.content.html }}{% endautoescape %}
+	</div>
+	{% endblock %}

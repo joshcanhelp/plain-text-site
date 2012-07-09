@@ -1,0 +1,25 @@
+{% extends "head-body.html" %}
+	{% block layout %} 
+	<div class="outer-wrap" id="header">
+		<div class="inner-wrap">
+			
+		</div>
+	</div>
+	
+	<div class="outer-wrap" id="navigation">
+		<div class="inner-wrap">
+			{{ nav|raw }}
+		</div>
+	</div>
+	
+	<div class="wrapper" id="main-content">
+		{% block content %} 
+		{% endblock %}
+		<div class="clearfix"></div>
+	</div>
+	<div class="outer-wrap" id="footer">
+		<div class="wrapper inner-wrap">
+	
+		</div>
+	</div>
+	{% endblock %}
