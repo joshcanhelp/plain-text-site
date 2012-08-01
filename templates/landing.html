@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+	{% block content %} 
+		<div class="intro-content">
+			{{ page.content.html|raw }}
+		</div>
+		<div class="content-full">
+			{% for item in page.content.sections %}
+				<div class="sub-page">
+					<h2><a href="{{ query.base }}{{ item.link }}">{{ item.title }}</a></h2>
+					{{ item.description }}
+				</div>
+			{% endfor %}
+		</div>
+	{% endblock %}
