@@ -1,154 +1,19 @@
+title: Web Process
+description: Web Process
+
+%%% CONTENT %%%
+
 # Our Process
 
-One of the worst kinds of customer experiences is a templated one. The script is read, the forms are filled out, and the project is completed as expected. 
+Food truck organic viral quinoa, put a bird on it VHS thundercats street art cliche semiotics. Occupy +1 kogi, banh mi pop-up ethical williamsburg polaroid quinoa locavore yr retro. Jean shorts direct trade next level craft beer tumblr cray letterpress occupy, odd future readymade vice american apparel squid. 
 
-Conversely, the most unproductive way to work is without a system. No one is clear on the next step, tasks fall by the wayside, and the budget can fluctuate wildly. 
+* Keffiyeh mustache wayfarers gentrify letterpress synth dreamcatcher sriracha portland. 
+* Tattooed freegan mustache, vegan sartorial polaroid direct trade cliche letterpress art party aesthetic banksy. 
+* Polaroid thundercats swag, etsy godard kale chips stumptown blog brunch typewriter farm-to-table. 
+* Photo booth viral fap, quinoa direct trade trust fund marfa cray food truck echo park biodiesel cred.
 
-We think this can be resolved with distinct project phases, each with their own sets of tasks, that are identified in the beginning of each project. This helps us stay on-budget, on-time, and communicating clearly. 
+Bushwick cardigan four loko, american apparel selvage mustache photo booth cosby sweater. Ethnic gluten-free twee carles. Twee ennui lo-fi fingerstache. Authentic sartorial craft beer, PBR echo park portland cosby sweater quinoa small batch pop-up put a bird on it leggings pitchfork. Austin vinyl gastropub portland lomo, ethical wolf craft beer shoreditch trust fund single-origin coffee occupy fanny pack. Cosby sweater blog sriracha, terry richardson mcsweeney's 8-bit authentic lomo skateboard cliche swag. Ethnic odd future beard, leggings typewriter put a bird on it wes anderson.
 
-Below are the phases we use and a sampling of tasks that might fall into each. 
+Semiotics gluten-free pinterest, post-ironic Austin flexitarian tofu mcsweeney's master cleanse tumblr williamsburg ethical. Small batch banksy food truck, shoreditch polaroid truffaut +1. Keytar american apparel DIY, chillwave tumblr helvetica cliche. Messenger bag authentic terry richardson +1 pickled, biodiesel marfa pork belly put a bird on it. Williamsburg hoodie jean shorts, thundercats banksy echo park pour-over wayfarers bicycle rights gluten-free mlkshk bushwick sartorial post-ironic VHS. Brooklyn butcher cosby sweater, godard hoodie quinoa craft beer tattooed stumptown jean shorts next level 8-bit. 8-bit mlkshk skateboard next level, american apparel umami messenger bag artisan terry richardson.
 
-
-## Initial Phases
-
-These phases happen before work gets started and help us get a footing on the potential project. 
-
-### Initial contact
-
-We need to make sure we're talking with a decision-maker "in-person" to make sure we're a good fit. This ensures that the right people in the organization are accessible to us and that the team we're working with fits well with ours. Relationships with higher-ups at this stage is critical because it tells us that you care about this step of the process. 
-
-* Our company mission and structure
-* Your company mission and relevant structure
-* Recent work we've done
-* Your recent successes
-* How we work and who we work with
-* General rates and common task costs
-
-### Project and specification review
-
-* Spec clarification
-* Project goals and measure of success
-* Current assets, including related initiatives
-* Time frame and budget
-
-### Framework for ongoing support
-
-We want to provide support and maintenance for clients that are a great fit for us and looking for a long-term relationship. Where possible and if needed, we can arrange a recurring partnership with someone on our end to support these tasks.
-
-* Pricing and availability, short and long term
-* Incoming request structure on both ends
-* Scope of work to be completed 
-
-### Introduction to partners for additional tasks
-
-Referrals on both ends need to be vetted for compatibility. If this is a direct referral, we'll make it clear what our role is. It is important to us that we're helping you complete your work, not just passing you off.
-
-* Clear, concise spec of work to be completed
-* Any known limitations or restrictions, including deadlines
-* Decision-maker to contact on both ends
-
-### Discovery
-
-Need to make sure that the technology is what we handle and the system is not a complete cluster. If it is a cluster, need to determine if we should help, refer, or run away. 
-
-* Current technology 
-* State of affairs
-* Local install + repository
-* Analytics
-
-
-## Build Project Phases
-
-At this point, we've agreed, formally or otherwise, to work together and we're both very excited for the future. 
-
-### Proposal/Estimate
-
-* Final spec of work to be complete
-* Deadlines for delivery and payment
-* Sketches, mock-ups, examples
-* Who do we need? Partners or all in-house?
-* Existing software or all custom?
-* Market research … like or different?
-
-### Post Deposit Organization
-
-Due now: hosting situation
-
-* Components of the project
-* Confirm availability with partners
-* Inventory of custom vs DRY
-* Local installs and Git repos
-* Test in all directions… people, technology, logins
-* Discovery for all plugins and existing software
-* Site map and page type inventory
-
-### Design Phase 1
-
-Would much rather be here than below...
-
-* Preliminary wireframes for main pages
-* Additional wireframes for all pages
-* Total buy-off 
-
-### Design Phase 2 [parallel with below]
-
-Contracted, always. How to make this work better?
-
-* Pretty colors!
-* Single mock-up for main page, then buy-off
-* Rest of main page, then buy-off
-* All auxiliary pages, then buy-off
-* Final buy-off on this phase
-
-### Construction Phase 1 [parallel with above]
-
-Due: Most content
-
-Need to come up with an easy way to separate build sections out and allow for testing at each round. Also, local environments need to plug easily into publicly accessible URLs to allow for client/agency testing
-
-* Decide on components and assign to builders
-* Install all plugins/existing and test
-* Install and modify all DRY components and test
-* Hardening? Performance?
-* All functionality complete and tested before pretty colors applied
-
-### Build Phase 4: Construct 2
-
-Due: final launch date and all remaining content
-
-Final phase of the site, all components should be accessible to the client and testing started
-
-* Applying CSS and final graphics
-* Cross-browser testing
-* Visual tweaks
-* Test, test, test, test
-
-
-## Final stages
-
-Work is complete, content is in place, and final components have been signed-off. Time to get this thing ready to go. 
-
-### Documentation & Training
-
-Hard to say in what order these come in but they come after the site is "complete"
-
-* Analytics and tracking code installed
-* Robots removed and link test run
-* Scan site for spelling, display issues, accessibility concerns
-* Turn on any SEO features
-* Documentation delivered to client (online?)
-
-### QA testing and pre-launch
-
-One of the most important steps and something we take seriously. It's also time for your homework too. We wrote a fairly exhaustive article about this [here](#). 
-
-### Site launch
-
-Our involvement here is typically fairly minimal. 
-
-
-## Equity project
-
-Wow, you made it all the way down here? 
-
-We do accept offers for equity projects but we are very selective, for good reason. Still, give us a shout, we're happy to talk about your project, if at least to provide a little guidance.
+Vice cardigan fanny pack mustache, carles cred jean shorts quinoa gastropub post-ironic. Swag locavore kogi stumptown irony vegan, tofu 8-bit umami master cleanse seitan salvia mcsweeney's fap. Aesthetic cosby sweater yr, vegan keffiyeh odd future fanny pack sriracha messenger bag fixie cray. Portland shoreditch bushwick, VHS viral iphone twee leggings. Raw denim gluten-free +1, american apparel marfa keffiyeh cred beard wes anderson direct trade sartorial. Fixie butcher put a bird on it leggings cray four loko, seitan mlkshk american apparel art party twee. Austin banh mi brunch, wayfarers tumblr readymade photo booth single-origin coffee next level pickled salvia mumblecore art party put a bird on it direct trade.

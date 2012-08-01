@@ -2,20 +2,20 @@
 	{% block layout %} 
 	<div class="outer-wrap" id="header">
 		<div class="inner-wrap">
-			
-		</div>
-	</div>
-	
-	<div class="outer-wrap" id="navigation">
-		<div class="inner-wrap">
-			{{ nav|raw }}
+		
+				{{ nav|raw }}
+				{% if page.metas.header %}
+				<span class="section-head">{{ page.metas.header }}</span>
+				{% endif %}
+				
 		</div>
 	</div>
 	
 	<div class="wrapper" id="main-content">
+		<div class="inner-wrap cf">
 		{% block content %} 
 		{% endblock %}
-		<div class="clearfix"></div>
+		</div>
 	</div>
 	<div class="outer-wrap" id="footer">
 		<div class="wrapper inner-wrap">

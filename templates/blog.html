@@ -1,7 +1,20 @@
 {% extends "layout.html" %}
 	{% block content %} 
+		{% if page.content.sections|length > 0 %}
+		<div class="intro-content">
+			{{ page.content.html|raw }}
+		</div>
 		<div class="content-col">
-		{% autoescape false %}{{ page.content.html }}{% endautoescape %}
+			{% for item in page.content.sections %}
+				<div class="sub-page">
+					<h2><a href="{{ query.base }}{{ item.link }}">{{ item.title }}</a></h2>
+					{{ item.description }}
+				</div>
+			{% endfor %}
+		{% else %}
+		<div class="content-col">
+			{{ page.content.html|raw }}
+		{% endif %}
 		</div>
 		<div class="sidebar">
 			{% include "partials/sidebar-blog.html" %}

@@ -100,7 +100,7 @@ class Page {
 	}
 	
 	// Grabs the page content from the Markdown file
-	private function get_page_content() {
+	function get_page_content() {
 		
 		$this->content['markdown'] = file_get_contents($this->text_file);
 		

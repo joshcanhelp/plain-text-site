@@ -26,6 +26,9 @@ $options = array(
 	
 	// Split on this for Markdown files
 	'markdown_split' => "\n%%% CONTENT %%%\n",
+	
+	// Split on this for sections
+	'section_split' => "\n%%% SECTION %%%\n",
 );
 
 

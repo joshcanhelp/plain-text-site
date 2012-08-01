@@ -2,6 +2,7 @@
 /*
 Grab a site option
 */
+
 function get_option($name) {
 	global $options;
 	return $options[$name];
@@ -11,6 +12,7 @@ function get_option($name) {
 /*
 Add the slash at the end of the URL
 */
+
 function correct_url() {
 	
 	global $query;
@@ -32,6 +34,7 @@ function correct_url() {
 /*
 Parse the current URL and store important pieces
 */
+
 function get_current_query() {
 	
 	$url = array();
@@ -87,3 +90,52 @@ function parse_page_metas($raw) {
 	
 }
 
+
+/*
+Create a slug string from any other string
+*/
+
+function slugify($string) {
+	$string = str_replace(' ', '-', strtolower($string));
+	$string = str_replace('_', '-', $string);
+	$string = preg_replace("/[^A-Za-z0-9 -]/", '', $string);
+	
+	return empty($string) ? false : $string;
+}
+
+
+/*
+Read through text files in a directory
+*/
+
+function read_txt_files($dir) {
+	
+	// Open blog post directory
+	if (is_dir($dir))
+		$dir_res = opendir($dir);
+	else
+		return;
+	
+	$result = array();
+	
+	// Read through all the files
+	while(($file = readdir($dir_res)) !== false) :
+		
+		$file_pieces = explode('.', $file);
+		
+		if ($file_pieces[1] === 'txt') :
+			
+			$result[] = array(
+				'slug' => $file_pieces[0],
+				'content' => file_get_contents($dir .  $file)
+			);
+			
+		endif;
+		
+	endwhile;
+	
+	closedir($dir_res);
+	
+	return $result;
+	
+}

@@ -1,59 +1,19 @@
+title: What We Does
+description: What We Does
+
+%%% CONTENT %%%
+
 # What is it that we do
 
-All businesses should define what they do clearly and stick to it. Expansion into new services and products should be a conscious, deliberate move towards a goal. Web design and development companies are the worst at this. 
+Food truck organic viral quinoa, put a bird on it VHS thundercats street art cliche semiotics. Occupy +1 kogi, banh mi pop-up ethical williamsburg polaroid quinoa locavore yr retro. Jean shorts direct trade next level craft beer tumblr cray letterpress occupy, odd future readymade vice american apparel squid. 
 
-The problem comes from two things: what we do is largely incomprehensible to our clients and what's involved with a strong, healthy web presence is near-endless. Put these two together and you have a recipe for a jack-of-all-web-trades company that can't keep up. 
+* Keffiyeh mustache wayfarers gentrify letterpress synth dreamcatcher sriracha portland. 
+* Tattooed freegan mustache, vegan sartorial polaroid direct trade cliche letterpress art party aesthetic banksy. 
+* Polaroid thundercats swag, etsy godard kale chips stumptown blog brunch typewriter farm-to-table. 
+* Photo booth viral fap, quinoa direct trade trust fund marfa cray food truck echo park biodiesel cred.
 
-Our desire is not to be a one-stop shop, it's to do what we do really well for clients that appreciate the focus and quality. As such, we work with a limited set of tools, itemized below.
+Bushwick cardigan four loko, american apparel selvage mustache photo booth cosby sweater. Ethnic gluten-free twee carles. Twee ennui lo-fi fingerstache. Authentic sartorial craft beer, PBR echo park portland cosby sweater quinoa small batch pop-up put a bird on it leggings pitchfork. Austin vinyl gastropub portland lomo, ethical wolf craft beer shoreditch trust fund single-origin coffee occupy fanny pack. Cosby sweater blog sriracha, terry richardson mcsweeney's 8-bit authentic lomo skateboard cliche swag. Ethnic odd future beard, leggings typewriter put a bird on it wes anderson.
 
-## Who we work with
+Semiotics gluten-free pinterest, post-ironic Austin flexitarian tofu mcsweeney's master cleanse tumblr williamsburg ethical. Small batch banksy food truck, shoreditch polaroid truffaut +1. Keytar american apparel DIY, chillwave tumblr helvetica cliche. Messenger bag authentic terry richardson +1 pickled, biodiesel marfa pork belly put a bird on it. Williamsburg hoodie jean shorts, thundercats banksy echo park pour-over wayfarers bicycle rights gluten-free mlkshk bushwick sartorial post-ironic VHS. Brooklyn butcher cosby sweater, godard hoodie quinoa craft beer tattooed stumptown jean shorts next level 8-bit. 8-bit mlkshk skateboard next level, american apparel umami messenger bag artisan terry richardson.
 
-We're not a "one-size-fits-all" shop and we created our work flow and processes to provide specific development work (next section) to specific people. 
-
-Structurally, you're likely a:
-
-* Design company of 1 or more people
-* Technology company without experience in the specific fields below
-* Tech-savvy small business who is already online but has some big ideas
-
-Philosophically, you likely:
-
-* Were nodding your head when you read our Mission and Motivation
-* Feel pretty cool telling people what your company does
-* Enjoy what you do and take pride in what you create
-
-
-## What we do
-
-Some of the below is open to interpretation. We're welcome to field any questions you have about what we create; we'll always be honest about where our strengths lie. 
-
-* Ground-up PHP and MySQL development (applications, custom classes, etc)
-* Existing PHP or Javascript application modification
-* Custom WordPress or Drupal site builds, configurations and modifications
-* WordPress plugins and custom themes
-* Drupal modules and custom themes
-* Front-end engineering projects, including UI/UX layout and design
-
-## What we use
-
-We work with open source technology as much as possible. If it's not on the list, we probably don't do it.
-
-* HTML5, XHTML
-* CSS (2, 3)
-* Javascript
-* PHP
-* MySQL
-* Git
-* WordPress
-* Drupal/Pressflow
-* jQuery
-* LAMP servers (not provisioning or management)
-* Google Analytics
-
-We're actively exploring the tools below. If you're OK with a little experimentation and a longer implementation (combined with a lower project cost), let's give it a try. 
-
-* Yii
-* Concrete5
-* MongoDB
-* Node.js
-* bbPress
+Vice cardigan fanny pack mustache, carles cred jean shorts quinoa gastropub post-ironic. Swag locavore kogi stumptown irony vegan, tofu 8-bit umami master cleanse seitan salvia mcsweeney's fap. Aesthetic cosby sweater yr, vegan keffiyeh odd future fanny pack sriracha messenger bag fixie cray. Portland shoreditch bushwick, VHS viral iphone twee leggings. Raw denim gluten-free +1, american apparel marfa keffiyeh cred beard wes anderson direct trade sartorial. Fixie butcher put a bird on it leggings cray four loko, seitan mlkshk american apparel art party twee. Austin banh mi brunch, wayfarers tumblr readymade photo booth single-origin coffee next level pickled salvia mumblecore art party put a bird on it direct trade.

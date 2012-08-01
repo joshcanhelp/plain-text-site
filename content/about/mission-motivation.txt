@@ -1,43 +1,20 @@
+title: Mission and Motivation
+description: Mission and Motivation
+
+%%% CONTENT %%%
+
 # Mission and Motivation
 
-Every business should have a reason for existing. This reason can be split into two pieces: the mission (what you aspire to) and the motivation (what keeps you plugging away). Please, allow us to share ours. 
+Food truck organic viral quinoa, put a bird on it VHS thundercats street art cliche semiotics. Occupy +1 kogi, banh mi pop-up ethical williamsburg polaroid quinoa locavore yr retro. Jean shorts direct trade next level craft beer tumblr cray letterpress occupy, odd future readymade vice american apparel squid. 
 
-## Mission
+* Keffiyeh mustache wayfarers gentrify letterpress synth dreamcatcher sriracha portland. 
+* Tattooed freegan mustache, vegan sartorial polaroid direct trade cliche letterpress art party aesthetic banksy. 
+* Polaroid thundercats swag, etsy godard kale chips stumptown blog brunch typewriter farm-to-table. 
+* Photo booth viral fap, quinoa direct trade trust fund marfa cray food truck echo park biodiesel cred.
 
-This is what we aspire to. Our mission has 3 parts:
+Bushwick cardigan four loko, american apparel selvage mustache photo booth cosby sweater. Ethnic gluten-free twee carles. Twee ennui lo-fi fingerstache. Authentic sartorial craft beer, PBR echo park portland cosby sweater quinoa small batch pop-up put a bird on it leggings pitchfork. Austin vinyl gastropub portland lomo, ethical wolf craft beer shoreditch trust fund single-origin coffee occupy fanny pack. Cosby sweater blog sriracha, terry richardson mcsweeney's 8-bit authentic lomo skateboard cliche swag. Ethnic odd future beard, leggings typewriter put a bird on it wes anderson.
 
-### Project first
+Semiotics gluten-free pinterest, post-ironic Austin flexitarian tofu mcsweeney's master cleanse tumblr williamsburg ethical. Small batch banksy food truck, shoreditch polaroid truffaut +1. Keytar american apparel DIY, chillwave tumblr helvetica cliche. Messenger bag authentic terry richardson +1 pickled, biodiesel marfa pork belly put a bird on it. Williamsburg hoodie jean shorts, thundercats banksy echo park pour-over wayfarers bicycle rights gluten-free mlkshk bushwick sartorial post-ironic VHS. Brooklyn butcher cosby sweater, godard hoodie quinoa craft beer tattooed stumptown jean shorts next level 8-bit. 8-bit mlkshk skateboard next level, american apparel umami messenger bag artisan terry richardson.
 
-What we create online lives on, potentially for decades. We take pride in what we produce and have the ability to help you do the same. That's why we put the project first.
-
-Putting the project first means that we will voice our concerns, recommendations, and warnings clearly and early. Most of the time these are minor changes but some are show-stoppers. We're not afraid to go back to the drawing board. 
-
-Our clients are partners in short-term ventures. We work with people who know their industry and it's our responsibility to do the same. That's why you won't see the word "service provider" anywhere on our site. 
-
-### Transparency
-
-As a technology company, we know we can get away with a lot because so much of what we do is a black box. We choose not to do this. 
-
-Being transparent means helping you understand what we do. We accomplish this through clear communication, appropriate documentation, and simple implementation.
-
-You might not understand everything that went into your project but at least you can know that nothing was hidden. Ask anything you'd like; no question is a dumb one. 
-
-### Improvement 
-
-The only way to keep building good things, online and off, is to continually improve everything about what you do: your people, your process, your tools, everything. 
-
-Our approach is an iterative one to everything we do. A component of building is making mistakes and these mistakes help us all improve.
-
-We rely on certain design and development standards to make good overall decisions. Improvement includes refining and testing these standards to avoid repetitive errors. 
-
-## Motivation
-
-You know what we strive for but what keeps us striving?
-
-* We thrive on learning. Even the most mundane tasks have a research and learning component built in. You can't make good web without study. 
-* We love to help others do better. We're not perfect but we know a thing or two. The best thing we can do with the knowledge we've acquired is to share it. 
-* We create things we're proud of. Without pride in workmanship, there is no sense of ownership and, hence, less motivation to do better. 
-* We ship often and iterate. This means we're not scared of making mistakes and we're not scared of unfinished projects going live. Let's learn something as soon as possible. Stay Lean. 
-* We want to work better as human beings. This means we take time off, are not glued to our email, and work in a way that keeps us healthy. That doesn't mean we go missing, it means we're great at setting expectations. 
-* We're partners, not vendors. Whether our relationship is short or long term, we're working together to do the best we can. If that's not appealing, just let us know early. 
+Vice cardigan fanny pack mustache, carles cred jean shorts quinoa gastropub post-ironic. Swag locavore kogi stumptown irony vegan, tofu 8-bit umami master cleanse seitan salvia mcsweeney's fap. Aesthetic cosby sweater yr, vegan keffiyeh odd future fanny pack sriracha messenger bag fixie cray. Portland shoreditch bushwick, VHS viral iphone twee leggings. Raw denim gluten-free +1, american apparel marfa keffiyeh cred beard wes anderson direct trade sartorial. Fixie butcher put a bird on it leggings cray four loko, seitan mlkshk american apparel art party twee. Austin banh mi brunch, wayfarers tumblr readymade photo booth single-origin coffee next level pickled salvia mumblecore art party put a bird on it direct trade.
 

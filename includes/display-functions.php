@@ -43,7 +43,7 @@ function display_nav_menu ($menu) {
 	
 	foreach ($menu as $key => $val) :
 		$out .= '
-		<li><a href="' . $query['base'] . $val . '">'.$key.'</a></li>';
+		<li class="nav-item-' . slugify($val) . '"><a href="' . $query['base'] . $val . '">'.$key.'</a></li>';
 	endforeach;
 	
 	$out .= '
