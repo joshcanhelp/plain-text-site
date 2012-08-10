@@ -30,17 +30,3 @@ $options = array(
 	// Split on this for sections
 	'section_split' => "\n%%% SECTION %%%\n",
 );
-
-
-/*
-Navigation menu
-*/
-
-$menu = array(
-	'Home' => '',
-	'About' => 'about/',
-	'Code' => 'code/',
-	'Shipped' => 'shipped/',
-	'Blog' => 'blog/',
-	'Contact' => 'contact/',
-);

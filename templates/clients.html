@@ -3,16 +3,16 @@
 		<div class="intro-content">
 			{{ page.content.html|raw }}
 		</div>
-		<div class="content-full">
 		{% for items in page.content.sections %}
-			<div class="shipped-item">
+		<div class="shipped-client-section">
+			<div class="slider-box">
 				{% for item in items %}
 					<div class="shipped-slide">
 					{{ item|raw }}
 					</div>
 				{% endfor %}
 			</div>
-		{% endfor %}
 		</div>
+		{% endfor %}
 		
 	{% endblock %}

@@ -1,6 +1,0 @@
-title: blog post 3
-description: this is blog post 3
-
-%%% CONTENT %%%
-
-# Blog post 3
