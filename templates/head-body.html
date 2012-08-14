@@ -8,14 +8,14 @@
 	<meta name="description" content="{{ page.description }}">
 	
 	<link rel="stylesheet" type="text/css" href="{{ query.base }}css/main.css" media="all">	
-	<script type="text/javascript" src="{{ query.base }}js/scripts.js"></script>
 	
 </head>
 <body>
 	
 {% block layout %} 
 {% endblock %}
-
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="{{ query.base }}js/scripts.js"></script>
 </body>
-
 </html>

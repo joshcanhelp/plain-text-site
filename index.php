@@ -58,5 +58,5 @@ echo $twig->render($page->template, array(
 	'nav' => display_nav_menu($menu)
 ));
 
-echo '<pre>';print_r($query);echo '</pre>';
-echo '<pre>';print_r($page);echo '</pre>';
+echo '<!-- <pre>' . print_r($query, true) . '</pre> -->';
+echo '<!-- <pre>' . print_r($page, true) . '</pre> -->';

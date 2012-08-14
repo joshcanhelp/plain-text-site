@@ -136,7 +136,7 @@ function route_callback_blog() {
 
 function route_callback_shipped() {
 	
-	global $page;
+	global $page, $query;
 	
 	$page->set_page_type('shipped');
 	$page->text_file = $page->content_dir . 'shipped.txt';
@@ -150,9 +150,9 @@ function route_callback_shipped() {
 			// Platform built on... WordPress, Drupal, jQuery, etc
 			'platform' => 'WordPress',
 			// Direct link to a thumbnail URL
-			'image' => 'http://url.com/path/to/image.png',
+			'image' => $query['base'] . 'images/shipped/wp-drudge-thumb.png',
 			// One sentance description
-			'description' => 'Short blurb of text',
+			'description' => 'WP-Drudge is a Drudge Report style (no affiliation) WordPress theme that makes it easy to post external articles, your own blog posts, and links to other sites.',
 			// Main info link
 			'link' => 'http://wpdrudge.com',
 			// Additional links like repos, posts, etc
@@ -168,9 +168,9 @@ function route_callback_shipped() {
 			// Platform built on... WordPress, Drupal, jQuery, etc
 			'platform' => 'WordPress',
 			// Direct link to a thumbnail URL
-			'image' => 'http://url.com/path/to/image.png',
+			'image' => $query['base'] . 'images/shipped/wp-soft-sell-thumb.png',
 			// One sentance description
-			'description' => 'Short blurb of text',
+			'description' => 'The WP-Soft-Sell WordPress theme creates an easy way to distribute your digital goods by building a sales page and providing a documentation template.',
 			// Main info link
 			'link' => 'http://wpsoftsell.com',
 			// Additional links like repos, posts, etc
@@ -185,7 +185,7 @@ function route_callback_shipped() {
 			// Platform built on... WordPress, Drupal, jQuery, etc
 			'platform' => 'WordPress',
 			// Direct link to a thumbnail URL
-			'image' => 'http://url.com/path/to/image.png',
+			'image' => $query['base'] . 'images/shipped/wp-writers-block-thumb.jpg',
 			// One sentance description
 			'description' => 'Short blurb of text',
 			// Main info link

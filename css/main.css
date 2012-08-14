@@ -118,7 +118,7 @@ body {line-height: 1em; font-size: 80%; font-family: Arial, Helvetica, sans-seri
 
 .inner-wrap {clear: both; width: 960px; margin: 0 auto;}
 
-.content-col, .content-full, .shipped-client-section {background: #fff; padding: 24px; margin: 0 0 24px}
+.content-col, .content-full {background: #fff; padding: 24px; margin: 0 0 24px}
 
 .content-col {width: 66%; float: left}
 .sidebar {width: 24%; float: right}
@@ -134,3 +134,25 @@ body {line-height: 1em; font-size: 80%; font-family: Arial, Helvetica, sans-seri
 	.the-content ul {list-style-type: square; padding: 10px 0 0 40px; }
 	.the-content ol {list-style-type: decimal; padding: 10px 0 0 40px;}
 	.the-content li {margin: 0 0 0.5em 0;}
+	
+/** shipped.html **/	
+
+.shipped-wrap {position: relative;}
+	.shipped-item {background: #fff; padding: 15px; width: 260px; border-radius: 3px; border: 1px solid #e4e4e4}
+		.shipped-item h2 {font-size: 1.4em; margin: 0 0 10px}
+		.shipped-item img {width: 290px; display: block; margin: 0 0 10px -15px; border-top: solid 1px #e4e4e4; border-bottom: solid 1px #e4e4e4}
+		.shipped-item p {padding: 8px 0}
+		.shipped-item a.more-link {text-decoration: none; font-weight: bold}
+		
+/** clients.html **/
+
+.slider-box {position: relative}
+
+	.prev-nav, .next-nav {position: absolute; font-size: 4em; top: 20px; cursor: pointer; color: #888}
+		.prev-nav:hover, .next-nav:hover {color: #555}
+		
+	.prev-nav {left: -40px}
+	.next-nav {right: -40px}
+	
+	.slide {}
+	.slide img {max-width: 200px; float: right; margin: 0 0 10px 16px}
