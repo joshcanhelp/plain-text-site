@@ -66,10 +66,9 @@ class Page {
 		
 		// On the home page
 		if (empty($query['path'])) :
-		
-			$this->type = 'home';
-			$this->text_file = $this->content_dir . 'home.txt';
-			$this->get_page_content();
+			
+			// Found in /includes/routes.php
+			route_callback_home();
 	
 		// Check if this is a redirect
 		elseif (array_key_exists($query['path'], $routes['redirects'])) :
@@ -111,6 +110,7 @@ class Page {
 		if (strpos($this->content['markdown'], $split) !== false) :
 		
 			$arr = explode($split, $this->content['markdown']);
+			$this->content['markdown'] = $arr[1];
 			$this->content['html'] = Markdown($arr[1]);
 			$this->set_page_metas(parse_page_metas($arr[0]));
 			

@@ -10,15 +10,15 @@
 	
 	<div class="outer-wrap content-wrap">
 		<div class="inner-wrap cf">
-			<div class="content-full">
+			<div class="slider-box">
 				{% for item in page.content.sections %}
-				<div class="sub-page">
-					<h2><a href="{{ query.base }}{{ item.link }}">{{ item.title }}</a></h2>
-					{{ item.description }}
-				</div>
-			{% endfor %}
+					<div class="slide cf">
+					{{ item|raw }}
+					</div>
+				{% endfor %}
 			</div>
 		</div>
 	</div>
+
 		
 	{% endblock %}

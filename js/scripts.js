@@ -45,7 +45,7 @@ $('.shipped-client-section').ready( function() {
 
 $('.shipped-wrap').ready( function() {
 	$('.shipped-item').wookmark({
-		offset: 8,
+		offset: 10,
 		container: $('.shipped-wrap'),
 	});
 })

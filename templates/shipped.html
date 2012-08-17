@@ -1,23 +1,31 @@
 {% extends "layout.html" %}
 	{% block content %} 
-		<div class="intro-content">
-			{{ page.content.html|raw }}
-		</div>
-		<div class="shipped-wrap">
-		{% for item in page.content.sections %}
-			<div class="shipped-item">
-				<h2>{{ item.title }}</h2>
-				{% if item.image|length %}
-				<img src="{{ item.image }}" alt="{{ item.title }}">
-				{% endif %}
-				{% if item.description|length %}
-				<p>{{ item.description }}</p>
-				{% endif %}
-				{% if item.link|length %}
-				<p><a href="{{ item.link }}" class="more-link">Read more &raquo;</a></p>
-				{% endif %}
+		<div class="outer-wrap">
+		<div class="inner-wrap cf">
+			<div class="intro-content">
+				{{ page.content.html|raw }}
 			</div>
-		{% endfor %}
 		</div>
+	</div>
+	<div class="outer-wrap content-wrap">
+		<div class="inner-wrap cf">
+			<div class="shipped-wrap">
+			{% for item in page.content.sections %}
+				<div class="shipped-item">
+					<h2>{{ item.title }}</h2>
+					{% if item.image|length %}
+					<img src="{{ item.image }}" alt="{{ item.title }}">
+					{% endif %}
+					{% if item.description|length %}
+					<p>{{ item.description }}</p>
+					{% endif %}
+					{% if item.link|length %}
+					<p><a href="{{ item.link }}" class="more-link">Read more &raquo;</a></p>
+					{% endif %}
+				</div>
+			{% endfor %}
+			</div>
+		</div>
+	</div>
 		
 	{% endblock %}

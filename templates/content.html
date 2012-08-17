@@ -1,6 +1,10 @@
 {% extends "layout.html" %}
 	{% block content %} 
-		<div class="content-col">
-		{{ page.content.html|raw }}
+		<div class="outer-wrap content-wrap">
+			<div class="inner-wrap cf">
+				<div class="content-col">
+					{{ page.content.html|raw }}
+				</div>
+			</div>
 		</div>
 	{% endblock %}

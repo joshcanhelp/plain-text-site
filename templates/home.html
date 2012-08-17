@@ -1,6 +1,22 @@
 {% extends "layout.html" %}
-	{% block content %} 
-		<div class="content-col">
-			{{ page.content.html|raw }}
+	{% block content %} 	
+	<div class="outer-wrap">
+		<div class="inner-wrap cf">
+			<div class="intro-content">
+				{{ page.content.html|raw }}
+			</div>
 		</div>
+	</div>
+	
+	{% for item in page.content.sections %}
+	<div class="outer-wrap content-wrap">
+		<div class="inner-wrap cf">
+			<div class="content-full">
+				{{ item|raw }}
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+	
 	{% endblock %}
+	
