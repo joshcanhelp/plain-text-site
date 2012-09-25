@@ -108,7 +108,7 @@ button {  width: auto; overflow: visible; }
 
 /*** head-body.html, layout.html styles ***/
 
-body {line-height: 1em; font-size: 80%; font-family: Arial, Helvetica, sans-serif; background: #eee}
+body {line-height: 1em; font-size: 80%; font-family: Arial, Helvetica, sans-serif; background: url(../images/bg.png)}
 	
 	#main-nav li {display: inline-block}
 	
@@ -118,7 +118,7 @@ body {line-height: 1em; font-size: 80%; font-family: Arial, Helvetica, sans-seri
 
 .inner-wrap {clear: both; width: 960px; margin: 0 auto;}
 
-.content-wrap {background: #fff; margin: 20px 0; padding: 20px 0; box-shadow: 0 3px 4px #ccc; border-top: 1px #ddd solid}
+.content-wrap {background: #fff; margin: 20px 0; padding: 20px 0; box-shadow: 0 3px 4px #888; border-top: 1px #ddd solid}
 
 .content-col, .content-full { padding: 24px; margin: 0 0 24px}
 

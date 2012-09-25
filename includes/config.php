@@ -24,6 +24,9 @@ $options = array(
 	//'content_dir' => 'https://dl.dropbox.com/u/64275/content/',
 	'content_dir' => 'content/',
 	
+	// Twig template directory
+	'template_dir' => 'templates/',
+	
 	// Split on this for Markdown files
 	'markdown_split' => "\n%%% CONTENT %%%\n",
 	

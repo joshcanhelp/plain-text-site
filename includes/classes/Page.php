@@ -82,13 +82,23 @@ class Page {
 			
 		else :
 			
-			$this->text_file = $this->content_dir . substr($query['path'], 0, strlen($query['path']) - 1) . '.txt';
+			// Creates the path to the content file relative to the content dir
+			$text_file = implode('/', $query['pieces']) . '.txt';
+			
+			// Creates a possible template file to look for
+			$tpl_file = get_option('template_dir') . $query['pieces'][0] . '.html';
+			
+			$this->text_file = $this->content_dir . $text_file;
 			
 			if (! is_readable($this->text_file)) :
 				// Nothing found? 404 
 				$this->set_page_type('404');
 				$this->text_file = $this->content_dir . '404.txt';
 			endif;
+			
+			// For sub-sections, look for a valid template file
+			if (is_readable($tpl_file))
+				$this->set_page_type($query['pieces'][0]);
 			
 			$this->get_page_content();
 			
