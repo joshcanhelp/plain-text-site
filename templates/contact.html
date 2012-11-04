@@ -8,15 +8,15 @@
 		</div>
 	</div>
 	
-	<div class="outer-wrap content-wrap">
+	<div class="outer-wrap content-wrap" id="contact-form-wrap">
 		<div class="inner-wrap cf">
-			<div class="slider-box">
-				{% for item in page.content.sections %}
-					<div class="slide cf">
-					{{ item|raw }}
-					</div>
-				{% endfor %}
-			</div>
+			<ul class="tab-switcher">
+				<li data-group="contact-general">Question</li>
+				<li data-group="contact-project">Project Request</li>
+				<li data-group="contact-work">Work With Us</li>
+				<li data-group="contact-bug">Issue Submit</li>
+			</ul>
+			{{ page.content.sections.0|raw }}
 		</div>
 	</div>
 

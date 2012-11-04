@@ -1,6 +1,9 @@
 /*
 General JS/jQuery by Proper Dev
 */
+
+// Shipped code section
+
 $('.shipped-client-section').ready( function() {
 	
 	// Iterate through all potential sliders
@@ -48,6 +51,40 @@ $('.shipped-wrap').ready( function() {
 		offset: 10,
 		container: $('.shipped-wrap'),
 	});
+})
+
+// Contect page
+
+$('#contact-form-wrap').ready( function() {
+	
+	var submitBtn = $('#contact-form-wrap input[type=submit]');
+	
+	// Hide the submit button until something is pressed
+	submitBtn.hide();
+	
+	var previousGroup, currentGroup = '';
+	
+	// Hide all extra fields
+	$('.contact-general, .contact-project, .contact-work, .contact-bug').hide();
+
+	$('.tab-switcher li').click( function() {
+		
+		submitBtn.show();
+		
+		previousGroup = currentGroup;
+		currentGroup = $(this).attr('data-group');
+		
+		if (previousGroup !== currentGroup) { 
+			
+			if (previousGroup.length) $('.' + previousGroup).hide();
+			
+			$('.' + currentGroup).show();
+			$('input#contact-group').val(currentGroup);
+			
+		}
+			
+	})
+	
 })
 
 /*!

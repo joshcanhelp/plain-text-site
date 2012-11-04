@@ -1,7 +1,0 @@
-title: About us
-description: Who we are, what we do, and what keeps us going
-header: About
-
-%%% CONTENT %%%
-
-Morbi a leo justo, vel consequat felis. Curabitur dui nulla, vehicula ut fringilla at, hendrerit in sem. Sed vitae dictum arcu. Nulla vitae urna lorem, eu sodales dolor. Nam eros nunc, euismod a condimentum a, hendrerit quis lectus. Pellentesque libero nibh, vulputate eu fermentum imperdiet, egestas eu mauris. Vivamus at quam mi, a porta mauris.

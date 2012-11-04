@@ -1,9 +1,0 @@
-title: this is a title
-description: this is a description
-lerp
-
-%%% CONTENT %%%
-
-#Sorry, that could not be found</h1>
-			
-<p>That did not bring up any results. So sorry!</p>

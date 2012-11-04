@@ -123,7 +123,9 @@ function read_txt_files($dir) {
 		
 		$file_pieces = explode('.', $file);
 		
-		if ($file_pieces[1] === 'txt') :
+		// Make sure the text file is a text file
+		// Also exclude files starting with "_" to allow for making content offline
+		if ($file_pieces[1] === 'txt' && $file_pieces[0][0] != '_') :
 			
 			$result[] = array(
 				'slug' => $file_pieces[0],
@@ -138,4 +140,26 @@ function read_txt_files($dir) {
 	
 	return $result;
 	
+}
+
+/*
+Output an error box
+*/
+
+function proper_display_errors($errs) {
+	$output = '
+	<div class="proper_error_box">
+		<h6>Please correct the following errors:</h6>
+		<ul>';
+	
+	foreach ($errs as $err) :
+		$output .= "
+		<li>$err</li>";
+	endforeach;
+	
+	$output .= '
+		</ul>
+	</div>';
+	
+	return $output;
 }

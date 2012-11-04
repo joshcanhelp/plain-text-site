@@ -1,8 +1,0 @@
-title: The Code Page
-description: This is a page about some code
-
-%%% CONTENT %%%
-
-# Code stuff
-
-Hey-yo

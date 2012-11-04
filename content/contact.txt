@@ -1,8 +1,0 @@
-title: Contact page
-description: this is a contact description
-
-%%% CONTENT %%%
-
-# Contact me
-
-Here is how you can contact us for any reason
