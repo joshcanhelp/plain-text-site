@@ -47,7 +47,7 @@ class Page {
 		
 		foreach ($metas as $key => $val) :
 			
-			if ($key == 'title') $this->title = $val;
+			if ($key == 'meta_title') $this->title = $val;
 			elseif ($key == 'description') $this->description = $val;
 			else $this->metas[$key] = $val;
 			
@@ -111,7 +111,8 @@ class Page {
 	// Grabs the page content from the Markdown file
 	function get_page_content() {
 		
-		$this->content['markdown'] = file_get_contents($this->text_file);
+		if (empty($this->content['markdown']))
+			$this->content['markdown'] = file_get_contents($this->text_file);
 		
 		// Split on content/meta split text
 		$split = get_option('markdown_split');

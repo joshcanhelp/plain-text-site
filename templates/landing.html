@@ -10,11 +10,11 @@
 	
 	<div class="outer-wrap content-wrap">
 		<div class="inner-wrap cf">
-			<div class="content-full">
+			<div class="content-full cf">
 				{% for item in page.content.sections %}
 				<div class="sub-page">
-					<h2><a href="{{ query.base }}{{ item.link }}">{{ item.title }}</a></h2>
-					{{ item.description }}
+					<h2>{{ item.title }} <a href="{{ query.base }}{{ item.link }}">&gt;</a></h2>
+					{{ item.description }} <br><a href="{{ query.base }}{{ item.link }}">Continue&nbsp;&raquo;</a>
 				</div>
 			{% endfor %}
 			</div>

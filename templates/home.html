@@ -8,15 +8,17 @@
 		</div>
 	</div>
 	
-	{% for item in page.content.sections %}
 	<div class="outer-wrap content-wrap">
 		<div class="inner-wrap cf">
-			<div class="content-full">
+			<div class="content-full the-content">
+			{% for item in page.content.sections %}
+			<div class="content-section cf">
 				{{ item|raw }}
+			</div>
+			{% endfor %}
 			</div>
 		</div>
 	</div>
-	{% endfor %}
 	
 	{% endblock %}
 	

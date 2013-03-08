@@ -15,10 +15,10 @@ $options = array(
 	'php_cache_dir' => 'templates/cache/',
 	
 	// Site name for default title, etc
-	'site_name' => 'Brown Cutlass',
+	'site_name' => 'PROPER Web Development',
 	
 	// Tagline for default meta desc, etc
-	'site_tagline' => 'We build some shit for you',
+	'site_tagline' => 'Web Development for design agencies and tech-savvy businesses.',
 	
 	// Markdown content directory
 	//'content_dir' => 'https://dl.dropbox.com/u/64275/content/',

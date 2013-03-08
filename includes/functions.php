@@ -50,14 +50,17 @@ function get_current_query() {
 		$url['path'] = str_replace($url['base'], '', $_SERVER['REQUEST_URI']);
 	else
 		$url['path'] = substr($_SERVER['REQUEST_URI'], 1);
-	
+
 	$url['parsed'] = parse_url($url['path']);
 	
 	// Getting all pieces of the path
 	$pieces = explode('/', urldecode($url['parsed']['path']));
 
 	for ($i = 0; $i <= count($pieces); $i++) :
-		if (!empty($pieces[$i])) $url['pieces'][$i] = $pieces[$i];
+		if (!empty($pieces[$i])) {
+			$url['pieces'][$i] = $pieces[$i];
+			isset( $url['page_id'] ) ? $url['page_id'] .= '-' . $pieces[$i] : $url['page_id'] = $pieces[$i];
+		}
 	endfor;	
 	
 	return $url;
@@ -81,7 +84,7 @@ function parse_page_metas($raw) {
 	foreach ($arr as $val) :
 		
 		// Format is key : val so we explode and check for both
-		$meta = explode(':', $val);
+		$meta = explode(': ', $val);
 		if(isset($meta[0]) && isset($meta[1])) $all_metas[trim($meta[0])] = trim($meta[1]);
 		
 	endforeach;
@@ -100,7 +103,7 @@ function slugify($string) {
 	$string = str_replace('_', '-', $string);
 	$string = preg_replace("/[^A-Za-z0-9 -]/", '', $string);
 	
-	return empty($string) ? false : $string;
+	return empty($string) ? FALSE : $string;
 }
 
 
@@ -119,7 +122,7 @@ function read_txt_files($dir) {
 	$result = array();
 	
 	// Read through all the files
-	while(($file = readdir($dir_res)) !== false) :
+	while(($file = readdir($dir_res)) !== FALSE) :
 		
 		$file_pieces = explode('.', $file);
 		
@@ -145,7 +148,7 @@ function read_txt_files($dir) {
 /*
 Output an error box
 */
-
+if (! function_exists('proper_display_errors')) {
 function proper_display_errors($errs) {
 	$output = '
 	<div class="proper_error_box">
@@ -163,3 +166,12 @@ function proper_display_errors($errs) {
 	
 	return $output;
 }
+}
+
+/*
+Look for user function files
+*/
+
+$user_file_path = dirname(__FILE__) . '/user-functions.php';
+if (file_exists($user_file_path)) 
+	require_once($user_file_path);

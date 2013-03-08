@@ -51,12 +51,9 @@ $page->get_page();
 /*
 Set options, load page template
 */
-
 echo $twig->render($page->template, array(
 	'query' => $query,
 	'page' => $page,
 	'nav' => display_nav_menu($menu)
 ));
 
-echo '<!-- <pre>' . print_r($query, true) . '</pre> -->';
-echo '<!-- <pre>' . print_r($page, true) . '</pre> -->';

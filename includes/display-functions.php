@@ -15,7 +15,7 @@ function display_sub_pages($subs) {
 		$link = empty($sub['path']) ? '#no-link' : $query['base'] . $sub['path'];
 		
 		$out .= '
-		<div class="sub-page-wrap">
+		<div class="sub_page_wrap">
 			<h2><a href="'.$link.'">'.$title.'</a></h2>
 			'.$desc.'
 		</div>';
@@ -39,15 +39,17 @@ function display_nav_menu ($menu) {
 	if (!is_array($menu) || empty($menu)) return $out;
 	
 	$out .= '
-	<ul id="main-nav">';
+		<ul id="main_nav">';
 	
 	foreach ($menu as $key => $val) :
+		$insert = $query['path'] == $val || ( !empty( $query['pieces'][0]) && $query['pieces'][0] . '/' == $val) ? '
+		current' : '';
 		$out .= '
-		<li class="nav-item-' . slugify($val) . '"><a href="' . $query['base'] . $val . '">'.$key.'</a></li>';
+			<li class="nav_item_' . slugify($val) . $insert . '"><a href="' . $query['base'] . $val . '">'.$key.'</a></li>';
 	endforeach;
 	
 	$out .= '
-	</ul>';
+		</ul>';
 	
 	return $out;
 	

@@ -1,0 +1,6 @@
+meta_title: Home
+description: A home page
+
+%%% CONTENT %%%
+
+This is your home page!

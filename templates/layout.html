@@ -1,22 +1,16 @@
 {% extends "head-body.html" %}
 	{% block layout %} 
-	<div class="outer-wrap" id="header">
-		<div class="inner-wrap">
+<div class="outer-wrap" id="header">
+	<div class="inner-wrap">
 		
-				{{ nav|raw }}
-				{% if page.metas.header %}
-				<span class="section-head">{{ page.metas.header }}</span>
-				{% endif %}
-				
-		</div>
+		<a href="{{ query.base }}" id="site_logo">Your Site</a>
+		
+		{{ nav|raw }}
+		
 	</div>
-	
-	{% block content %} 
+</div>
+
+	{% block content %}
 	{% endblock %}
 
-	<div class="outer-wrap" id="footer">
-		<div class="wrapper inner-wrap">
-	
-		</div>
-	</div>
-	{% endblock %}
+{% endblock %}
